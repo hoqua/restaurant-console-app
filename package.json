@@ -1,0 +1,18 @@
+{
+  "name": "restaurant-console-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:hoqua/restaurant-console-app.git",
+  "author": "Dmitrii <dmitrii.zolotuhin@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "assemble": "^0.3.83",
+    "grunt": "^0.4.5",
+    "parcel": "^1.12.4",
+    "styles": "^0.2.1"
+  },
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  }
+}
